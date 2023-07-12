@@ -18,7 +18,7 @@ public class CheckBoxTesting {
 		List <WebElement> allCheckboxes;
 		String checkboxValue;
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\SELENIUM\\browser-driver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
